@@ -6,10 +6,12 @@ import Home from "./pages/Home";
 import Events from "./pages/Events";
 import Discussions from "./pages/Discussions";
 import Resources from "./pages/Resources";
-import AcademicCalendar from "./pages/AcademicCalendar.tsx";
+import AcademicCalendar from "./pages/AcademicCalendar";
 import LibraryDatabase from "./pages/LibraryDatabase";
 import CareerPortal from "./pages/CareerPortal";
 import MentalHealthResources from "./pages/MentalHealthResources";
+import SignUp from "./pages/SignUp";
+import VerifyEmail from "./pages/VerifyEmail";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
             <Route path="/resources/library" element={<LibraryDatabase />} />
             <Route path="/resources/careers" element={<CareerPortal />} />
             <Route path="/resources/wellness" element={<MentalHealthResources />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/verify-email" element={<VerifyEmail />} />
           </Routes>
         </Layout>
       </Router>
