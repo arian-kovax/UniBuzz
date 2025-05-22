@@ -9,7 +9,7 @@ const Resources = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <Link
-            to="/resources/academic-calendar"
+            to="/resources/calendar"
             className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-lg transition 
                        text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 
                        focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -19,7 +19,7 @@ const Resources = () => {
           </Link>
 
           <Link
-            to="/resources/library-database"
+            to="/resources/library"
             className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-lg transition 
                        text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 
                        focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -29,7 +29,7 @@ const Resources = () => {
           </Link>
 
           <Link
-            to="/resources/career-portal"
+            to="/resources/careers"
             className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-lg transition 
                        text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 
                        focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -39,7 +39,7 @@ const Resources = () => {
           </Link>
 
           <Link
-            to="/resources/mental-health-resources"
+            to="/resources/wellness"
             className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-lg transition 
                        text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 
                        focus:outline-none focus:ring-2 focus:ring-blue-500"
