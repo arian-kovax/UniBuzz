@@ -111,14 +111,14 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-500 dark:text-gray-400 mr-2" />
-                <a href="tel:+918073644206" className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
-                8073644206
+                <a href="tel:+919793576952" className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+                9793576952
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-gray-500 dark:text-gray-400 mr-2" />
-                <a href="mailto:support@unibuzz.edu.in" className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
-                  support@unibuzz.edu.in
+                <a href="mailto:kovaxarian@gmail.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  kovaxarian@gmail.com
                 </a>
               </li>
               <li className="flex items-center">

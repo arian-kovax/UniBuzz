@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { MessageSquare, Eye, Pin, Clock, Search, List, Tag } from 'lucide-react';
+import { MessageSquare, Eye, Pin, Clock, Search, List, Tag, User } from 'lucide-react';
 import { discussions, users } from '../data/mockData';
+
 
 const Discussions: React.FC = () => {
   const [filteredDiscussions, setFilteredDiscussions] = useState(discussions);
